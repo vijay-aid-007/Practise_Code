@@ -4,6 +4,6 @@ class Solution:
         if str1 + str2 != str2 + str1:
             return ""
         
-        gcd_ = math.gcd(len(str1),len(str2))
-        return str1[:gcd_]
+        gcd_end_index = math.gcd(len(str1),len(str2))
+        return str1[:gcd_end_index]
         
