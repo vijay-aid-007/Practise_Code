@@ -10,8 +10,8 @@ class Solution:
 
             if n == 0:
                 return True
-        else:
-            return False
+        # else:
+        return False
         
 
         
